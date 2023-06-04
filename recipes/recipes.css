@@ -63,9 +63,17 @@ li {
     border: solid 2px black;
     border-radius: 50%;
 
-
 }
 
-a, a:visited   {
+a  {
     text-decoration: none;
+    color: maroon
+}
+
+a:hover  {
+    color : rgb(159, 243, 4)
+}
+
+a:visited {
+    color: rgb(200, 163, 0);
 }
