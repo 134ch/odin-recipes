@@ -2,8 +2,20 @@ html{
     position:relative;
 }
 
+.border {
+    text-align: center;
+    width:600px;
+    border-style:double;
+    border-radius: 5%;
+    border-width: 10px;
+    border-color: maroon;
+    height: fit-content;
+    margin:auto;
+}
+
 .header{
     text-align: center;
+    text-decoration-line: overline underline;
 }
 
 img{
@@ -15,4 +27,29 @@ img{
     margin: 40px 0 4px 0;
     height: 250px;
     text-align: center;
+}
+
+.ingredients {
+    text-align: center;
+    margin: 20px;
+}
+
+.direction {
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+    text-decoration: wavy underline;
+}
+.list-center {
+    display: inline-block;
+    place-items: center;
+    text-align: justify;
+    margin-top: 0px;
+    width : 400px;
+}
+
+li {
+    padding: 5px
 }
