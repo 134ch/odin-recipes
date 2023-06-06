@@ -1,0 +1,62 @@
+html{
+    position:relative;
+    background-image: url(/recipes/background.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+.border-index {
+    text-align: center;
+    width:600px;
+    border-style:double;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color: maroon;
+    height: fit-content;
+    margin:auto;
+    background-color: #ebeaea;
+    padding-bottom: 30px;
+}
+
+.header-index{
+    margin-top: 8%;
+    text-align: center;
+    text-decoration-line: overline underline;
+    font-family:monospace;
+    font-size: 20px;
+}
+
+
+img{
+    max-width: 200px;
+    max-height: 300px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: maroon;
+}
+
+.recipes {
+    font-size : 30px;
+
+}
+
+.list{
+    margin-top : 15px;
+}
+
+
+a {
+    text-decoration:dotted underline #ff2090;
+    color : black;
+}
+
+a:visited {
+    text-decoration:dotted underline #9020ff;
+    color : #505050
+}
+
+a:hover {
+    color: #90ff90
+}
+

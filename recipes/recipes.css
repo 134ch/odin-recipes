@@ -11,7 +11,7 @@ html{
     text-align: center;
     width:600px;
     border-style:double;
-    border-radius: 5%;
+    border-radius: 30px;
     border-width: 10px;
     border-color: maroon;
     height: fit-content;
