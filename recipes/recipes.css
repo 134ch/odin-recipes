@@ -1,6 +1,11 @@
 html{
     position:relative;
+    background-image: url(/recipes/background.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+
 }
+
 
 .border {
     text-align: center;
@@ -11,20 +16,26 @@ html{
     border-color: maroon;
     height: fit-content;
     margin:auto;
+    background-color: #ebeaea;
+    padding-bottom: 30px;
 }
 
 .header{
+    margin-top: 8%;
     text-align: center;
     text-decoration-line: overline underline;
 }
 
 img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    border-style:ridge;
+    border-width: 10px;
+    
 }
 
 .recipe-image {
-    margin: 40px 0 4px 0;
+    margin: 40px;
     height: 250px;
     text-align: center;
 }
@@ -58,10 +69,11 @@ li {
     text-align: right;
     display: block;
     width : fit-content;
-    margin: 20px 35% 0 65%;
+    margin: 20px 37% 20px 63%;
     padding: 5px;
     border: solid 2px black;
     border-radius: 50%;
+    background-color: #ebeaea;
 
 }
 
