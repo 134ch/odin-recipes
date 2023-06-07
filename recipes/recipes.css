@@ -1,6 +1,6 @@
 html{
     position:relative;
-    background-image: url(/recipes/background.png);
+    background-image: url(./background.png);
     background-size:cover;
     background-repeat:no-repeat;
 
